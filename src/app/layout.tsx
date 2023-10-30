@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Imprima, Inter } from "next/font/google";
 import "./globals.css";
 import Navigation from "./navigation"
 import Image from "next/image";
-
+import {Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 const headingClass = "mt-4 mb-4 text-6xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white text-center";
 
@@ -23,11 +22,12 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+   
       <body className={inter.className + " m-12 mt-4 mb-4 md:m-32 md:mt-4 md:mb-4"}>
         <h1
           className={headingClass}
         >
-          ascionemagro
+          ascionemagro {inter.className}
         </h1>
 
         <a target="_blank" href="https://www.youtube.com/watch?v=EnWAdXJgqjo">

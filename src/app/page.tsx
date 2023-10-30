@@ -8,8 +8,7 @@ export default function Home() {
     <>
       <p> 
         <b>ascionemagro</b> is a graphic design studio based in Milan founded in
-        2013 by graphic designers <b>Valentina Ascione</b> and
-        <b>Onofrio Magro</b>. We specialize in developing strong concepts and
+        2013 by graphic designers <b>Valentina Ascione</b> and <b>Onofrio Magro</b>. We specialize in developing strong concepts and
         complex identity systems on both analogue and digital media.
         We work within the boundaries of commercial, art and culture and develop
         our design through research, study and conversation with the client in
