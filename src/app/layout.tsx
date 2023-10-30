@@ -27,7 +27,7 @@ export default function RootLayout({
         <h1
           className={headingClass}
         >
-          ascionemagro {inter.className}
+          ascionemagro
         </h1>
 
         <a target="_blank" href="https://www.youtube.com/watch?v=EnWAdXJgqjo">
