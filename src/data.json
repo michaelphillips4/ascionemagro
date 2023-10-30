@@ -1,0 +1,246 @@
+{
+  "clients": [
+    {
+      "text": "Tropical Sun",
+      "name": "Fulci"
+    },
+    {
+      "text": "Exumed Information",
+      "name": "Fulci"
+    },
+    {
+      "text": "web site",
+      "name": "Donatella di Cicco"
+    },
+    {
+      "text": "Titoli di testa",
+      "name": "l'irriducibile"
+    },
+    {
+      "text": "Identity",
+      "name": "Olyna"
+    },
+    {
+      "text": "Identity",
+      "name": "G&T"
+    },
+    {
+      "text": "Collabs Collections",
+      "name": "Moleskine"
+    },
+    {
+      "text": "Identity",
+      "name": "deTilla"
+    },
+    {
+      "client": "naturasi",
+      "href": "https://ascionemagro.com/naturasi-negozio/",
+      "text": " Identity",
+      "name": "NaturaSì"
+    },
+    {
+      "year": "2022",
+      "client": "otto",
+      "href": "https://ascionemagro.com/otto/",
+      "text": " Brand identity",
+      "name": "Otto"
+    },
+    {
+      "year": "2021",
+      "href": "https://ascionemagro.com/alpino/",
+      "text": " Brand identity",
+      "name": "Alpino"
+    },
+    {
+      "year": "2020",
+      "href": "https://ascionemagro.com/salvatore-delle-femmine-website/",
+      "text": " Website",
+      "name": "Salvatore Delle Femmine"
+    },
+    {
+      "year": "2020",
+      "client": "fulci",
+      "href": "https://ascionemagro.com/death-by-metal/",
+      "text": " Death by Metal",
+      "name": "Fulci"
+    },
+    {
+      "client": "naturasi",
+      "href": "https://ascionemagro.com/bilancio-naturasi/",
+      "text": " Bilancio di Sostenibilità",
+      "name": "NaturaSì"
+    },
+    {
+      "year": "2020",
+      "href": "https://ascionemagro.com/la-casa-dellamore/",
+      "text": " La casa dell’amore",
+      "name": "Enece film"
+    },
+    {
+      "year": "2019",
+      "client": "gt",
+      "href": "https://ascionemagro.com/tunisie/",
+      "text": " Milieux Oasiens et Sahariens",
+      "name": "G&T"
+    },
+    {
+      "href": "https://ascionemagro.com/am-mascheroni/",
+      "text": " Mascheroni",
+      "name": "personal project"
+    },
+    {
+      "year": "2019",
+      "client": "miroglio",
+      "href": "https://ascionemagro.com/miroglio/",
+      "text": " Rebranding",
+      "name": "Miroglio"
+    },
+    {
+      "year": "2019",
+     "href": "https://ascionemagro.com/marioscairato/",
+      "text": " Web site",
+      "name": "Mario Scairato"
+    },
+    {
+      "year": "2019",
+      "client": "minina",
+      "href": "https://ascionemagro.com/rebrandingminina/",
+      "text": " Rebranding",
+      "name": "Minina"
+    },
+    {
+      "year": "2019",
+      "client": "moleskine",
+      "href": "https://ascionemagro.com/lord-of-the-rings/",
+      "text": " Lord of the Rings collection",
+      "name": "Moleskine"
+    },
+    {
+      "year": "2019",
+      "client": "1920",
+      "href": "https://ascionemagro.com/1920identity/",
+      "text": " Identity",
+      "name": "1920"
+    },
+    {
+      "year": "2018",
+      "client": "moleskine",
+      "href": "https://ascionemagro.com/super-mario-bros-notebooks/",
+      "text": " Super Mario collection",
+      "name": "Moleskine"
+    },
+    {
+      "year": "2018",
+      "client": "furla",
+      "href": "https://ascionemagro.com/a-string-of-pearls/",
+      "text": " A string of pearls",
+      "name": "Furla"
+    },
+    {
+      "client": "moleskine",
+      "href": "https://ascionemagro.com/music-notebooks/",
+      "text": " Music collections",
+      "name": "Moleskine"
+    },
+    {
+      "client": "moleskine",
+      "href": "https://ascionemagro.com/japan-culture-notebooks/",
+      "text": " Japan culture collections",
+      "name": "Moleskine"
+    },
+    {
+      "href": "https://ascionemagro.com/spaziopaestum/",
+      "text": " Identity",
+      "name": "Spazio Paestum"
+    },
+    {
+      "client": "lzo",
+      "href": "https://ascionemagro.com/lzo/",
+      "text": " Brand identity",
+      "name": "LZO brewery"
+    },
+    {
+      "year": "2017",
+
+      "href": "https://ascionemagro.com/dede-nutrimento-italiano/",
+      "text": " Identity",
+      "name": "DEDÉ nutrimento italiano"
+    },
+    {
+      "year": "2017",
+      "client": "moleskine",
+      "href": "https://ascionemagro.com/timenotebooks/",
+      "text": " Time collection",
+      "name": "Moleskine"
+    },
+    {
+      "year": "2016",
+      "client": "ds",
+      "href": "https://ascionemagro.com/dswebsite/",
+      "text": " Web site",
+      "name": "D&amp;S"
+    },
+    {
+      "client": "moleskine",
+      "href": "https://ascionemagro.com/superheroesnotebooks/",
+      "text": " Super heroes collections",
+      "name": "Moleskine"
+    },
+    {
+      "year": "2015",
+      "client": "sovrappensiero",
+      "href": "https://ascionemagro.com/tavola-italiana/",
+      "text": " Tavola italiana",
+      "name": "sovrappensiero"
+    },
+    {
+      "year": "2014",
+      "client": "t293",
+      "href": "https://ascionemagro.com/t293/",
+      "text": " Web site",
+      "name": "T293"
+    },
+    {
+      "text": "  V. M. Book",
+      "name": "Brioni"
+    },
+    {
+      "client": "aidi",
+      "href": "https://ascionemagro.com/lucemagazine/",
+      "text": " Luce magazine",
+      "name": "AIDI"
+    },
+    {
+      "year": "2014",
+      "href": "https://ascionemagro.com/aaronolzer/",
+      "text": " Website",
+      "name": "Aaron Olzer"
+    },
+    {
+      "year": "2014",
+      "href": "https://ascionemagro.com/enece-film/",
+      "text": " Identity",
+      "name": "Enece film"
+    },
+    {
+      "year": "2013",
+      "client": "minina",
+      "href": "https://ascionemagro.com/minina-identity/",
+      "text": " Brand identity",
+      "name": "Minina"
+    },
+    {
+      "year": "2013",
+      "client": "gierremilano",
+      "href": "https://ascionemagro.com/gierremilano/",
+      "text": " Rebranding",
+      "name": "Gierremilano"
+    },
+
+    {
+      "href": "https://ascionemagro.com/niasca-portofino/",
+      "text": " Brand identity",
+      "name": "Niasca Portofino"
+    }
+  ]
+}
