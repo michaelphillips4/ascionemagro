@@ -4,7 +4,7 @@ import Navigation from "./navigation"
 import Image from "next/image";
 import {Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
-const headingClass = "mt-4 mb-4 text-6xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white text-center";
+const headingClass = "mt-4 mb-4 text-5xl md:text-6xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white text-center";
 
 export const metadata: Metadata = {
   title: "ascionemagro",
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
    
-      <body className={inter.className + " m-12 mt-4 mb-4 md:m-32 md:mt-4 md:mb-4"}>
+      <body className={inter.className + " mx-4 md:mx-32"}>
         <h1
           className={headingClass}
         >
