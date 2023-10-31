@@ -1,6 +1,6 @@
 import Image from "next/image";
 /* import { useTheme } from 'next-themes' */
-const imageClass = "dark:invert m-4 rounded";
+const imageClass = "dark:invert mt-2 md:m-4 rounded";
 const h3 = "text-xl font-extrabold leading-none tracking-tight text-gray-900 text-center ";
 export default function Home() {
  /*  const { theme, setTheme } = useTheme() */
