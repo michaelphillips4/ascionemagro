@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const imageClass = "dark:invert mt-2 md:m-4 rounded";
 const h3 =
-  "text-xl font-extrabold leading-none tracking-tight text-gray-900 text-center ";
+  "text-xl font-extrabold leading-none tracking-tight text-center ";
 export default function Home() {
   return (
     <>

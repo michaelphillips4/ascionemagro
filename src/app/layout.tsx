@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className + "bg-white dark:bg-gray-900"}>
+      <body className={inter.className + "bg-white dark:bg-gray-900 text-gray-900 dark:text-white"}>
         <Provider>
         
           <header> <ThemeSwitch /> 
@@ -44,7 +44,7 @@ export default function RootLayout({
             </a>
          
           
-            <span className="text-xl font-extrabold leading-none tracking-tight text-gray-900 text-center ">
+            <span className="text-xl font-extrabold leading-none tracking-tight  text-center ">
               progettazione grafica e art direction
             </span>
             <div className="mt-2">

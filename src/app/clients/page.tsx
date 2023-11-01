@@ -4,7 +4,7 @@ import ClientListItem from "./ClientListItem";
 export default function Page() {
   return (
     <>
-      <h3 className="text-xl font-extrabold leading-none tracking-tight text-gray-900 text-center ">
+      <h3 className="text-xl font-extrabold leading-none tracking-tight text-center ">
         clients - list of works
       </h3>
       <ul className="md:pt-6">
