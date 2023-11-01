@@ -10,7 +10,7 @@ export default function Page() {
     const style = { display: "inline"};
 
     return (
-      <div className="text-xl pt-10 text-gray-900 
+      <div className="text-xl pt-10  
       lg:flex lg:justify-center">
              
           <div className="m-10 text-left">

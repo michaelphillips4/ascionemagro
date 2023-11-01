@@ -18,7 +18,7 @@ export default function Navigation() {
         <Link key={index}
           href={l.href}
           className={clsx("mr-2 p-1", {
-            "bg-gray-100 rounded": pathname === l.href,
+            "bg-gray-100  dark:bg-gray-400 rounded": pathname === l.href,
           })}
         >
           {l.text}

@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navigation from "./navigation"
+import Navigation from "./navigation";
 import Image from "next/image";
-import {Inter } from "next/font/google";
+import { Inter } from "next/font/google";
+import Provider from "./Provider";
+import ThemeSwitch from "./ThemeSwitch";
+
 const inter = Inter({ subsets: ["latin"] });
-const headingClass = "mt-4 mb-4 text-5xl md:text-6xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white text-center";
+const headingClass =
+  "mt-4 mb-4 text-5xl md:text-6xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white text-center";
 
 export const metadata: Metadata = {
   title: "ascionemagro",
@@ -17,44 +21,38 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
- 
-
-
   return (
     <html lang="en">
-   
-      <body className={inter.className + " mx-4 md:mx-32"}>
-        <h1
-          className={headingClass}
-        >
-          ascionemagro
-        </h1>
-
-        <a target="_blank" href="https://www.youtube.com/watch?v=EnWAdXJgqjo">
-          <Image
-            src="/snail.svg"
-            alt="snail Logo"
-            className="dark:invert float-right m-4"
-            width={112}
-            height={100}
-            priority
-          />
-        </a>
-
-        <div className="">
-          
-              <span className="text-xl font-extrabold leading-none tracking-tight text-gray-900 text-center " >
-                progettazione grafica e art direction
-              </span>
-           
-            <div className="mt-2">
-             <Navigation />
-            </div>
+      <body className={inter.className + "bg-white dark:bg-gray-900"}>
+        <Provider>
+        
+          <header> <ThemeSwitch /> 
+            <h1 className={headingClass}>ascionemagro</h1>
+ </header><div className=" mx-4 md:mx-32 ">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=EnWAdXJgqjo"
+            >
+              <Image
+                src="/snail.svg"
+                alt="snail Logo"
+                className="dark:invert float-right m-4"
+                width={112}
+                height={100}
+                priority
+              />
+            </a>
          
-
-          {children}
-        </div>
-
+          
+            <span className="text-xl font-extrabold leading-none tracking-tight text-gray-900 text-center ">
+              progettazione grafica e art direction
+            </span>
+            <div className="mt-2">
+              <Navigation />
+            </div>
+            {children}
+          </div>
+        </Provider>
       </body>
     </html>
   );
