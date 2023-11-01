@@ -9,11 +9,16 @@ export default function Page() {
       </h3>
       <ul className="md:pt-6">
         {data.clients.map((c, index) => (
+          
           <li key={`${index}`}>
-            <ClientListItem name={c.name} text={c.text} href={c.href} />
+              
+            <ClientListItem name={c.name} text={c.text} href={c.href} id={index} hasClientDetails={c.images !== undefined} />
           </li>
         ))}
       </ul>
+
+
+      
     </>
   );
 }
