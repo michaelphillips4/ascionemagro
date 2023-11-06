@@ -13,30 +13,34 @@ export default function Page({
   if (client) {
     return (
       <>
-       <div>
-        <h3 className={h3}>{client.name} </h3>
-        <i>{client.description}</i> {client.year}
-        <b>{client.text}</b>
-       </div> 
-
-     {client.href && client.href.length !== 0 && (client.images === undefined)  && 
-            <a href={client.href} target="_blank" className="underline">{client.href}</a>
-     } 
+        <div>
+          <h3 className={h3}>{client.name} </h3>
+          <i>{client.description} </i> {client.year} <b> {client.text}</b>
+        </div>
 
         <div className="flex flex-wrap justify-center mt-10">
-        {client.images?.map((e, i) => (
-          <div key={i}>
-            <Image
-              src={`/clients/${client.name}/${e}`}
-              alt="chairs"
-              className={imageClass}
-              priority
-              width={278}
-              height={370}
-            />
-          </div>
-        ))}
-
+          {client.images?.map((e, i) => (
+            <div key={i}>
+              {e.toLocaleLowerCase().endsWith(".mp4") ? (
+                <video controls autoPlay className={imageClass} {...client.images.length > 1 && {width:"643",height:"482"}}>
+                  <source
+                    src={`/clients/${client.client}/${e}`}
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              ) : (
+                <Image
+                  src={`/clients/${client.client}/${e}`}
+                  alt="chairs"
+                  className={imageClass}
+                  priority
+                  width={278}
+                  height={370}
+                />
+              )}
+            </div>
+          ))}
         </div>
       </>
     );

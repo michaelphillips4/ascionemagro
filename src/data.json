@@ -34,8 +34,7 @@
     },
     {
       "client": "naturasi",
-      "href": "https://ascionemagro.com/naturasi-negozio/",
-      "text": " Identity",
+      "text": "Identity",
       "name": "NaturaSì",
       "description": "2019 - 2022",
       "images":[
@@ -68,21 +67,27 @@
     {
       "year": "2022",
       "client": "otto",
-      "href": "https://ascionemagro.com/otto/",
-      "text": " Brand identity",
-      "name": "Otto"
+      "text": "Brand identity",
+      "name": "Otto",
+      "images":[
+      "otto3.jpg" 
+      ,"otto5.jpg","otto8.jpg",
+      "otto7.jpg" ,"otto9.jpg","otto6.jpg" ,"otto2.png","otto4.mp4","otto1.mp4"        
+      ]
     },
     {
       "year": "2021",
-      "href": "https://ascionemagro.com/alpino/",
       "text": " Brand identity",
-      "name": "Alpino"
+      "name": "Alpino",
+      "client":"alpino",
+      "images":["alpino7.jpg","alpino6.jpg","alpino8.jpg","alpino1.jpg","alpino3.jpg","alpino4.png","alpino5-2.mp4","alpino2.mp4"]
     },
     {
       "year": "2020",
-      "href": "https://ascionemagro.com/salvatore-delle-femmine-website/",
-      "text": " Website",
-      "name": "Salvatore Delle Femmine"
+      "text": "Website",
+      "name": "Salvatore Delle Femmine",
+      "client":"salvatore-delle-femmine-website",
+      "images":["SALVO_video.mp4"]
     },
     {
       "year": "2020",
@@ -188,7 +193,6 @@
     },
     {
       "year": "2017",
-
       "href": "https://ascionemagro.com/dede-nutrimento-italiano/",
       "text": " Identity",
       "name": "DEDÉ nutrimento italiano"
